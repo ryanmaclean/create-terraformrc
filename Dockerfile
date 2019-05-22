@@ -5,7 +5,7 @@ LABEL "com.github.actions.description"="Creates the Terrform Enterprise .terrafo
 LABEL "com.github.actions.icon"="lock"
 LABEL "com.github.actions.color"="purple"
 
-RUN	apk add --no-cache bash
+RUN apk add --no-cache bash
 
 COPY create-terraformrc /usr/bin/create-terraformrc
 
